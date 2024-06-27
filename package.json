@@ -1,5 +1,10 @@
 {
   "dependencies": {
-    "latest-version": "^9.0.0"
+    "@azure/msal-node": "^2.9.2",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "bullmq": "^5.8.2",
+    "googleapis": "^140.0.1",
+    "latest-version": "^9.0.0",
+    "openai": "^4.52.1"
   }
 }
