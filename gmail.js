@@ -2,9 +2,10 @@ const { google } = require('googleapis');
 const { OAuth2 } = google.auth;
 
 const oauth2Client = new OAuth2(
-    2184254044-cgqqte29i1ohko21ncdkrcedv8krv6og.apps.googleusercontent.com,
-    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,
-//   YOUR_REDIRECT_URL
+  process.env.GOOGLE_CLIENT_ID,
+  process.env.GOOGLE_CLIENT_SECRET,
+  process.env.GOOGLE_REDIRECT_URL
+
 );
 
 const gmail = google.gmail({ version: 'v1', auth: oauth2Client });
