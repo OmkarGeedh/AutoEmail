@@ -1,5 +1,13 @@
+Google:- 
 Client Id:
 2184254044-cgqqte29i1ohko21ncdkrcedv8krv6og.apps.googleusercontent.com
 
 Client Secret:
 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
+
+
+Azure:-
+
+
+Open AI API:-
+sk-proj-CGXFpscWHiuEtILhfQXcT3BlbkFJmwDBL1Qhx6EmE0ziBedh
